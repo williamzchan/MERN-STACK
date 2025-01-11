@@ -22,9 +22,6 @@ header .container {
   align-items: center;
   justify-content: space-between;
 }
-/*
-anchor tag so clicks are dealt with in frontend and not backend
-*/
 header a {
   color: #333;
   text-decoration: none;
@@ -99,4 +96,7 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
 }

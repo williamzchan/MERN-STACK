@@ -6,7 +6,7 @@ const Navbar = () =>{
         <header>
             <div className="container">
                 <Link to="/">
-                    <h1>Workout Buddy</h1>
+                    <h1> Gym Bro </h1>
                 </Link>
             </div>
         </header>
@@ -14,4 +14,4 @@ const Navbar = () =>{
 
 }
 
-export default Navbar;
+export default Navbar
