@@ -1,7 +1,18 @@
 const User = require('../models/userModel')
+const jwt = require('jsonwebtoken')
+
+//will generate our jsonwebtokens
+const createToken = (_id) => {
+    //can add token as second parameter to sign function 
+    // can be any string but this is unsafe so put it into .env
+    jwt.sign({_id}, process.env.PASSWORD, {expiresIn: '3d'})
+}
 
 //controller for users login
 const loginUser = async (req, res) =>{
+
+    const {email, password} = req.body
+    
     res.json({mssg: 'login user'})
 
 }
@@ -11,10 +22,13 @@ const signupUser = async(req, res) =>{
 
     const {email, password} = req.body 
 
+    // create a user token
+    const token = createToken(user._id)
+
     try {
         const user = await User.signup(email, password)
-
-        res.status(200).json({email, user})
+        //replace user param with token, qucker authentication
+        res.status(200).json({email, token})
     }catch(error){
         res.status(400).json({error: error.message})
     }
