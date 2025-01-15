@@ -23,70 +23,73 @@ Whether you're a beginner or a seasoned gym-goer, this app simplifies managing y
 Clone this repository:
 
 bash
-1. Copy code
-'''
+**1.** Copy code
+```
 git clone https://github.com/your-username/[The-Gym-bro.git](https://github.com/williamzchan/The-Gym-Bro.git)
-'''
+```
 Might have to install following files 
 
 In order
 
-2. Will install package.json
-'''
+**2.** Will install package.json
+```
 npm init -y
+```
 
-'''
+**3.** install express app
 
-3. install express app
-'''
+```
 npm install express
 '''
 
-4. install nodemon
-'''
+**4.** install nodemon
+
+```
 npm install -g nodemon
+```
 
-'''
-5. install dotenv file for secrets
+**5.** install dotenv file for secrets
 
-'''
+```
 npm install dotenv
-'''
+```
 
-6. install mongoose our db
-'''
+**6.** install mongoose our db
+
+```
 npm install mongoose
-'''
+```
 
-6.1. as a sidenote if you want to do this in typescript install
-'''
+**6.1.** as a sidenote if you want to do this in typescript install
+
+```
 npm install @ljharb/tsconfig --save-dev
-'''
+```
 
-7. install react-router-dom for react packages
+**7.** install react-router-dom for react packages
 
-'''
+```
 npm install react-router-dom
-'''
+```
 
-8. install for standardized date (look like a calender date)
+**8.** install for standardized date (look like a calender date)
 
-'''
+```
 npm install date-Fns
-'''
+```
 
-9. install bcrypt for hashing passwords
-'''
+**9.** install bcrypt for hashing passwords
+
+```
 npm install bcrypt 
-'''
+```
 
 
+**10.** install jsonwebtoken
 
-10. install jsonwebtoken
-
-'''
+```
 npm install jsonwebtoken
-'''
+```
 
 
 
