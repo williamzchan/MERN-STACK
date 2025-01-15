@@ -54,4 +54,40 @@ npm install dotenv
 '''
 
 6. install mongoose our db
-npn install mongoose
+'''
+npm install mongoose
+'''
+
+6.1. as a sidenote if you want to do this in typescript install
+'''
+npm install @ljharb/tsconfig --save-dev
+'''
+
+7. install react-router-dom for react packages
+
+'''
+npm install react-router-dom
+'''
+
+8. install for standardized date (look like a calender date)
+
+'''
+npm install date-Fns
+'''
+
+9. install bcrypt for hashing passwords
+'''
+npm install bcrypt 
+'''
+
+
+
+10. install jsonwebtoken
+
+'''
+npm install jsonwebtoken
+'''
+
+
+
+
