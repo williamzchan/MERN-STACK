@@ -22,52 +22,47 @@ Whether you're a beginner or a seasoned gym-goer, this app simplifies managing y
 ##To Get Started##
 Clone this repository:
 
-bash
-**1.** Copy code
+bash commands in terminal
+
+**1.**Copy code
 ```
 git clone https://github.com/your-username/[The-Gym-bro.git](https://github.com/williamzchan/The-Gym-Bro.git)
 ```
-Might have to install following files 
+Might have to install following files: 
 
-In order
+In this order
 
-**2.** Will install package.json
+**2.**  Install package.json for required Node.js file packages
 ```
 npm init -y
 ```
 
-**3.** install express app
-
+**3.** Install express for our app's backend 
 ```
 npm install express
-'''
+```
 
-**4.** install nodemon
-
+**4.** Install nodemon for tools to develop Node.js apps
 ```
 npm install -g nodemon
 ```
 
-**5.** install dotenv file for secrets
-
+**5.** Install dotenv file to hold private info
 ```
 npm install dotenv
 ```
 
-**6.** install mongoose our db
-
+**6.** Install mongoose for the app database
 ```
 npm install mongoose
 ```
 
-**6.1.** as a sidenote if you want to do this in typescript install
-
+**6.1.** as a ***optional*** sidenote if you want to have typescript and javascript to be compatible then install
 ```
 npm install @ljharb/tsconfig --save-dev
 ```
 
 **7.** install react-router-dom for react packages
-
 ```
 npm install react-router-dom
 ```
@@ -79,14 +74,12 @@ npm install date-Fns
 ```
 
 **9.** install bcrypt for hashing passwords
-
 ```
 npm install bcrypt 
 ```
 
 
 **10.** install jsonwebtoken
-
 ```
 npm install jsonwebtoken
 ```
