@@ -4,8 +4,8 @@ const Login = () => {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
-    const handleSubmit = async () => {
-        e.preventDefault(email, password)
+    const handleSubmit = async (e) => {
+        e.preventDefault()
         console.log(email, password)
     }
 
@@ -24,7 +24,6 @@ const Login = () => {
                 onChange={(e) => setPassword(e.target.value)}
                 value ={password}
             />
-        value ={password}
         <button>Log In</button>
         </form>
     )
