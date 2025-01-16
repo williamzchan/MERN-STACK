@@ -24,7 +24,7 @@ Clone this repository:
 
 bash commands in terminal
 
-**1.**Copy code
+**1.** Copy code
 ```
 git clone https://github.com/your-username/[The-Gym-bro.git](https://github.com/williamzchan/The-Gym-Bro.git)
 ```
